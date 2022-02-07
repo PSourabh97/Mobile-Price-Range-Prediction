@@ -25,11 +25,24 @@ I have hypertune the Models using GridSearchCV.
 
 Checked the performance of the Models by using some performance metrics(  Confusion matrix, precision, recall, AOC ROC curve). 
 ## Outcomes
-Cost prediction is the very important factor of marketing and business. To predict  the cost same procedure can be performed for all types of products for example  Cars, Foods, Medicine, Laptops etc. 
+*   Gradient Boost is giving us best overall 94% accuracy.
+*   Random Forest and Adaboost and XG boost also giving 92% accuracy.
 
-Best marketing strategy is to find optimal product (with minimum cost and  maximum specifications). So products can be compared in terms of their  specifications, cost, manufacturing company etc. 
+But we'll choose XG boost our best model, since it is giving good accuracy overall and as well as on indivisual clasees. You can see in the table that the variance for the class specific accuracy is lowest for XG boost.
 
-By specifying economic range a good product can be suggested to a costumer.
+After trying different models, the best features for mobile price range predictions are as follow:
+
+
+
+1.   RAM
+2.   Battery Power
+3.   Mobile Weight
+4.   Screen Size
+5.   Pixels
+6.   Talk Time
+7.   Internal Memory
+8.   Clock speed
+
 
 
 
